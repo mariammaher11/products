@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.card{
+    padding: 20 px;
+    background-color: #333;
+    color: white;
+}
+
+.card-body{
+    background-color: black;
+}
+
+.form-group{
+    margin: 15px 0px;
+}
+
+.form-control{
+    background-color: #333;
+    color: white;
+}
+
+.form-control::placeholder{
+    color: white;
+    font-weight: bold;
+
+}  .form-control::-moz-focus-inner{
+    background-color: #ffffff;
+    color: black;
+}
